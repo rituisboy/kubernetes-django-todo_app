@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # kubernetes-django-todo_app
 
 This is a Kubernetes project where I deployed a todo app made with Django.
@@ -28,6 +28,6 @@ kubectl apply -f ingress.yaml
 ```
 
 4. Visit `todo.com` on your local browser, and the site will be up and running.
-```
+
 
 This markdown code will format your instructions properly with code blocks. Remember to replace `<minikube ip>` with the actual IP address of your Minikube instance.
