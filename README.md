@@ -6,10 +6,12 @@ to run this project <br>
 ```
 git clone https://github.com/rituisboy/kubernetes-django-todo_app.git
 ``` 
-<br>
-```kubectl apply -f .\deploy.yaml```<br>
-```kubectl apply -f .\service.yaml```<br>
-```kubectl apply -f .\ingress.yaml```<br>
+
+```
+kubectl apply -f .\deploy.yaml
+kubectl apply -f .\service.yaml
+kubectl apply -f .\ingress.yaml
+```
 and your minikube ip in /etc/hosts file <br>
 ```<minikube ip> todo.com```<br>
 Now visit todo.com on your local browser the site will be up and running
